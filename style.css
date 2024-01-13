@@ -1,7 +1,8 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #667085;
-    --tertiary-color: #8E2424;
+    --tertiary-color: #101828;
+    --quaternary-color: #8E2424;
     --principal-font: 'Inter', sans-serif;
 }
 
@@ -54,9 +55,39 @@ body {
 } 
 
 .nav__link--signup {
-    background-color: var(--tertiary-color);
+    background-color: var(--quaternary-color);
     color: var(--primary-color);
     padding: 0.6em 1.1em;
-    border: 1px solid var(--tertiary-color);
+    border: 1px solid var(--quaternary-color);
     border-radius: 8px;
+}
+
+/* 1° section */
+.about-us {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 6em 22%;
+}
+
+.about-us span {
+    color: var(--quaternary-color);
+    font-weight: 600;
+}
+
+.about-us h2 {
+    color: var(--tertiary-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.about-us__text {
+    line-height: 150%;
+    padding: 0.75em;
+}
+
+.small-text {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
 }

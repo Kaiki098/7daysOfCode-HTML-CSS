@@ -13,6 +13,7 @@ body {
     font-weight: 400;  
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -62,6 +63,7 @@ body {
     border-radius: 8px;
 }
 
+/* Main */
 /* 1° section */
 .about-us {
     display: flex;
@@ -85,9 +87,40 @@ body {
 .about-us__text {
     line-height: 150%;
     padding: 0.75em;
-}
-
-.small-text {
     color: var(--secondary-color);
     font-size: 1.25rem;
 }
+
+/* 2° section */
+.metrics-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 5em 6em 5em;
+    padding: 0em 2em;
+}
+
+.metrics-container div {
+    margin: 0 2em;
+}
+
+.metrics-container__title {
+    color: var(--quaternary-color);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.metrics-container__subtitle {
+    color: var(--tertiary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 0.75em;
+}
+
+.metrics-container__text {
+    color: var(--secondary-color);
+    margin-top: 0.5em;
+    line-height: 150%;
+}
+
+
+/* Footer */

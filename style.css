@@ -122,5 +122,35 @@ body {
     line-height: 150%;
 }
 
+/* 3° section */
+.searching-talents {
+    text-align: center;
+    padding: 6em 5em 4em 5em;
+}
 
+.searching-talents span {
+    border-radius: 16px;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 0.25em 0.75em;
+    color: var(--quaternary-color);
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+.searching-talents h2 {
+    color: var(--tertiary-color);
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.searching-talents p {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+    margin-bottom: 4em;
+}
+
+.searching-talents img {
+    max-width: 100%;
+}
 /* Footer */

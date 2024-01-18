@@ -133,7 +133,7 @@ body {
     background-color: rgba(142, 36, 36, 0.05);
     padding: 0.25em 0.75em;
     color: var(--quaternary-color);
-    font-size: 0.875em;
+    font-size: 0.875rem;
     font-weight: 500;
 }
 
@@ -205,6 +205,45 @@ body {
 .card__description p {
     color: var(--secondary-color);
     font-weight: 500;
+}
+
+/* 5° section */
+.collaborator-feedback {
+    margin: 0 7em 6em 7em;
+}
+
+.collaborator-feedback__content {
+    text-align: center;
+    padding: 4em;
+    border-radius: 16px;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+
+.collaborator-feedback__content span {
+    color: var(--quaternary-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.collaborator-feedback__content h2 {
+    color: var(--tertiary-color);
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.collaborator-feedback__content h3 {
+    color: var(--tertiary-color);
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.collaborator-feedback p {
+    font-size: 0.875rem;
+    color: var(--secondary-color);
 }
 
 /* Footer */

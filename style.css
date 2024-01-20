@@ -250,6 +250,8 @@ body {
 
 footer {
     text-align: center;
+    background-color: #F9FAFB;
+    padding: 6em 0;
 }
 
 footer h2 {
@@ -261,12 +263,19 @@ footer h2 {
 footer p {
     color: var(--secondary-color);
     font-size: 1.25rem;
+    margin: 1.25em 0 2.5em 0;
+}
+
+footer form {
+    margin-bottom: 2em;
 }
 
 footer input {
     border-radius: 8px;
     border: 1px solid #D0D5DD;
     padding: 12px 14px 12px 16px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);    
+    min-width: 23%;
 }
 
 footer input::placeholder {
@@ -278,6 +287,10 @@ footer button {
     border-radius: 8px;
     border: 1px solid var(--quaternary-color);
     background-color: var(--quaternary-color);
-    color: white;
+    color: var(--primary-color);
     font-weight: 500;
+}
+
+footer span {
+    color: #98A2B3;
 }

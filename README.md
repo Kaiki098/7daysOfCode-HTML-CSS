@@ -11,6 +11,11 @@ Este repositório contém minhas soluções para o desafio de codificação de 7
 </div>
 
 # 🔍 Pagina criada
+## Landing Page
+[Landing Page](https://github.com/Kaiki098/7daysOfCode-HTML-CSS/assets/127666620/969562fd-4ea9-4857-a276-d6bc926a8bd4)
+
+## Responsividade Landing Page
+[](https://github.com/Kaiki098/7daysOfCode-HTML-CSS/assets/127666620/0dff1e23-836d-42ee-93c1-fd6307edcf37)
 
 # ⚙️ Como testar
 Para testar, basta baixar o arquivo zip em `Code` -> `Download ZIP`, extrair o arquivo e clicar em `index.html`.

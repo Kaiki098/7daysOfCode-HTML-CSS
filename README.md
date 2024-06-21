@@ -19,3 +19,6 @@ Este repositório contém minhas soluções para o desafio de codificação de 7
 
 ## ⚙️ Como testar
 Para testar, basta baixar o arquivo zip em `Code` -> `Download ZIP`, extrair o arquivo e clicar em `index.html`.
+
+## 🔬 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para detalhes.
